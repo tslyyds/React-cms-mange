@@ -1,0 +1,7 @@
+.title_link {
+  color: #333;
+}
+.title_link:hover {
+  color: #1890ff;
+  cursor: pointer;
+}

@@ -1,0 +1,78 @@
+@import '~antd/dist/antd.css';
+body {
+  font-size: 14px;
+  color: #ccc;
+  font-family: '微软雅黑';
+}
+#app {
+  height: 100vh;
+}
+#contain {
+  display: flex;
+  height: calc(100vh - 140px);
+}
+#contain .contain_right {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+#contain .contain_right::-webkit-scrollbar {
+  width: 10px;
+  height: 100%;
+  background: #fff;
+  border-radius: 10px;
+}
+#contain .contain_right::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10;
+  background: #EDEDED;
+}
+#contain .contain_right::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background: #535353;
+}
+#contain .contain_right .contain_right_contain {
+  flex: 1;
+  width: 100%;
+  background-color: #ffffff;
+}
+header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #fff;
+}
+header a {
+  height: 130%;
+  display: block;
+}
+header .avater {
+  width: 40px;
+  height: 40px;
+}
+header span {
+  margin: 0 10px;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+.MyAsider {
+  height: calc(100vh - 140px);
+  width: 150px;
+  font-size: 10px;
+}
+footer {
+  height: 70px;
+  background-color: #001529;
+  text-align: center;
+  line-height: 70px;
+  color: #ccc;
+  font-size: 10px;
+}
